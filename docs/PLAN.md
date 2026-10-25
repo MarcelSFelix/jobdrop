@@ -9,7 +9,8 @@ Built in stages so I learn every part properly on current versions, and every st
 - Each stage: work through the source first, then build. I write the "I write" parts myself, Claude reviews (rules in `.claude/CLAUDE.md`).
 - Claude Code runs with the Learning output style: in VS Code type `/` in the prompt box → Output styles → Learning. It applies from the next message.
 - Claude Code runs in Manual permission mode, so I see every edit as a diff before it's applied.
-- A stage is done when its "Done when" list is met. Then: entry in `docs/LEARNING.md`, commit, `git tag stage-N`.
+- Each stage gets its own branch, e.g. `feat/stage-0-python-refresh`; larger stages get one branch per task. Other prefixes: `fix/`, `docs/`, `refactor/`, `test/`, `chore/`. Commit freely on the branch.
+- A stage is done when its "Done when" list is met. Then: entry in `docs/LEARNING.md`, pull request into `main` (squash merge), `git tag stage-N` on `main`.
 - Only the current stage is planned in detail. The next one gets detailed when I get there.
 
 ## Stack
