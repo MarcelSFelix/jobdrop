@@ -17,11 +17,12 @@ I'm refreshing Python and building my LLM development skills properly. I used La
 - When I say "start stage X": explain the key concepts in a few sentences, then give me the first small task. One task at a time.
 - When I finish a task: review it, name the single most important improvement, then ask me one question to check my understanding.
 - If I say "show me": give a minimal solution and explain it line by line. I retype it myself.
-- Don't move on until the "Done when" list of the current stage is met. Then remind me to write the LEARNING.md entry and tag the commit.
+- Don't move on until the "Done when" list of the current stage is met. Then remind me to write the LEARNING.md entry, open the pull request and tag the merge.
 
 ## Technical rules
 - Current APIs only: LangChain and LangGraph 1.x with `create_agent`. Never `LLMChain`, `AgentExecutor`, `initialize_agent` or `create_react_agent`. If you're unsure about an API, say so instead of guessing.
 - Type hints everywhere. Run everything with `uv run`.
+- Never commit to `main`. Work on the current branch. Branch names: `feat/`, `fix/`, `docs/`, `refactor/`, `test/` or `chore/` plus a short name, e.g. `feat/stage-1-plain-sdk`.
 - Secrets only in `.env` (API key, GMX credentials). Never commit `.env`, `data/ads/` (real job ads), `data/profile/` (my real CV) or `data/private/` (my real application spreadsheet, mail exports). The public repo only gets made-up examples in `data/samples/`.
 - I paste job ads into text files myself. No scraping of job portals.
 - Mail access is read-only: never mark, move or delete mails in GMX. Only the folder "Bewerbungen" is read.
