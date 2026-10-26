@@ -37,11 +37,11 @@ Never in the repo: `.env` (API key, GMX credentials), `data/ads/` (real job ads)
 - Pydantic docs, "Models"
 
 **Tasks:**
-1. Done: `uv init`, `uv add pydantic`, Python pinned to 3.14. Run the hello function with `uv run job-ad-analyzer`.
+1. Done: `uv init`, `uv add pydantic`, Python pinned to 3.14. Run the hello function with `uv run jobdrop`.
 2. Add to `.gitignore` (uv already added `.venv`): `.env`, `data/ads/`, `data/profile/`, `data/private/`, `.claude/settings.local.json`.
 3. Paste 5 real job ads into `data/ads/*.txt`, German and English mixed. Write 2 short made-up ads into `data/samples/` for the public repo.
 4. Write a `JobAd` Pydantic model: title, languages, frameworks, remote, seniority. Pass it a wrong type on purpose and read the error.
-5. Write `baseline.py`: reads all ads, finds known languages and frameworks from a keyword list (case-insensitive, whole words only), guesses remote from keywords, writes `data/baseline.json`.
+5. Write `baseline.py`: reads all ads, finds known languages and frameworks from a keyword list (case-insensitive, whole words only), guesses remote from keywords, writes `data/baseline.json`. The script creates missing output folders itself (`Path.mkdir(parents=True, exist_ok=True)`), because git doesn't track empty folders and `data/ads/` is ignored.
 
 **I write:** everything in this stage.
 
