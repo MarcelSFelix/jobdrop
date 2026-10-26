@@ -11,5 +11,6 @@ wheels/
 
 .env
 data/ads/
+data/private/
 data/profile/
 .claude/settings.local.json
