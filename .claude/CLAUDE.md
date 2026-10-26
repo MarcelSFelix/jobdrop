@@ -9,7 +9,7 @@ Plan and current stage: @docs/PLAN.md
 My learning notes: `docs/LEARNING.md` (read only when relevant).
 
 ## About me in this project
-I'm refreshing Python and building my LLM development skills properly. I used LangChain in an earlier research project; this project rebuilds that knowledge on the current 1.x versions. LangGraph and pgvector are new to me, and I use Postgres without knowing it in depth. The goal is that I understand everything I show in an interview, not only that it runs.
+I'm building my LLM development skills properly. I used LangChain in an earlier research project; this project rebuilds that knowledge on the current 1.x versions. LangGraph and pgvector are new to me, and I want to understand Postgres in depth instead of relying on generated setups. Explain Python-specific details briefly when they come up. The goal is that I understand everything I show in an interview, not only that it runs.
 
 ## Learning rules
 - Each stage in PLAN.md has an "I write" list. Never write code for those parts. Explain, give hints, review what I wrote.

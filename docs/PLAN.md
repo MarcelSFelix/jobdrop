@@ -27,12 +27,12 @@ Never in the repo: `.env` (API key, GMX credentials), `data/ads/` (real job ads)
 
 ---
 
-## Stage 0: Python refresh (current)
+## Stage 0: Setup and keyword baseline (current)
 
-**Learn:** uv and virtual environments, type hints, functions, lists and dicts, comprehensions, classes, exceptions, `pathlib` and `json`, Pydantic models and validation errors.
+**Learn:** project setup with uv, typed Python, file handling with `pathlib` and `json`, Pydantic models and validation errors.
 
 **Sources:**
-- Python tutorial, docs.python.org/3/tutorial, chapters 3 to 9
+- Python tutorial at docs.python.org/3/tutorial, as needed
 - uv docs, "Getting started"
 - Pydantic docs, "Models"
 

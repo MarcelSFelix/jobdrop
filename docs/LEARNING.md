@@ -17,7 +17,7 @@ One entry per stage, written by me in my own words after the stage is done. No c
 
 ---
 
-### Stage 0: Python refresh
+### Stage 0: Setup and keyword baseline
 **What I built:**
 
 **How it works and why it's built this way:**
