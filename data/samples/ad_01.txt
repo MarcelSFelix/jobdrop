@@ -1,0 +1,27 @@
+Software Developer (m/f/d) – Backend
+Brightlane Logistics GmbH · Stuttgart (hybrid, 2 office days/week)
+
+Brightlane builds route-planning software for mid-sized freight companies across Europe. Our team of 14 developers is growing, and we’re looking for someone who enjoys turning messy real-world problems into clean, reliable services.
+
+What you’ll do
+
+Build and maintain REST APIs in Java (Spring Boot)
+Work on our PostgreSQL data layer and improve query performance
+Write tests and take part in code reviews
+Collaborate with product and UX in two-week sprints
+
+What you bring
+
+2+ years of professional experience with Java or Kotlin
+Solid SQL skills
+Familiarity with Git, Docker and CI/CD pipelines
+Good English; German is a plus, not a requirement
+
+What we offer
+
+€58,000–68,000 per year, depending on experience
+30 vacation days, flexible hours
+€1,500 annual learning budget
+Deutschlandticket fully covered
+
+Apply with your CV and, if you have one, a link to your GitHub. No cover letter needed.
